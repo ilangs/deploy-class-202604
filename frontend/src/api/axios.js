@@ -9,7 +9,7 @@ const api = axios.create({
   // 1. 서버의 기본 주소를 설정합니다. 
   // ⭐ 변경된 부분: 로컬 주소를 주석 처리하고 배포된 Render 주소를 입력합니다.
   // baseURL: "http://localhost:8000",
-  baseURL: "https://deploy-class-202604.onrender.com" // 본인의 Render URL
+  baseURL: "https://deploy-class-202604.onrender.com", // 본인의 Render URL
 
   // 2. 서로 다른 도메인(Port가 달라도 포함) 간에 쿠키나 인증 정보를 주고받을 수 있게 허용합니다.
   // 특히 백엔드에서 보낸 'refresh_token' 쿠키를 브라우저가 보관하고 다시 보낼 때 반드시 true여야 합니다.
